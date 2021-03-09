@@ -1,0 +1,13 @@
+[general]
+name=HyperlinkGenerator
+email=aaron.boden@eictronic.de
+author=Eictronic GmbH
+qgisMinimumVersion=3.0
+description=Das Plugin generiert Hyperlinks basierend auf einem bestehenden Pfad und den ausgewaehlten Koordinaten
+about=Nach setzen des Grundpfades "BrowserPath" wartet das Plugin auf die Eingabe von Koordinaten über den Cursor und ruft nach dem Anklicken der Karte den entsprechenden Pfad auf. Fuer genauere Informationen besuchen Sie die unten aufgefuehrte Homepage. 
+version=1.0
+
+homepage=https://github.com/bodenaaron/QgsHyperlinkGenerator
+tracker=https://github.com/bodenaaron/QgsHyperlinkGenerator/issues
+repository=https://github.com/bodenaaron/QgsHyperlinkGenerator
+icon=icons/openInBrowser.png
