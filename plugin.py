@@ -9,6 +9,7 @@ import webbrowser
 
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+from PyQt5 import Qt, QtCore, QtWidgets, QtGui, QtWebKit, QtWebKitWidgets, QtXml, QtNetwork, uic
 from .openInBrowser import OpenInBrowser
         
 
@@ -32,7 +33,7 @@ class Hyperlinkgenerator:
         self.openInBrowser.setIcon(QIcon(os.path.join(self.pluginPath, 'icons', 'openInBrowser.png')))
         self.mainMenu.addAction(self.openInBrowser)
         self.toolbar.addAction(self.openInBrowser)
-        self.openInBrowser.triggered.connect(self.startOpenInBrowser)           
+        self.openInBrowser.triggered.connect(self.startOpenInBrowser)                   
         
     def startOpenInBrowser(self):
         self.gui = OpenInBrowser(self.iface)
